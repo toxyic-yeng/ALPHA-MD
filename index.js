@@ -6,7 +6,7 @@ const cheerio = require("cheerio");
 async function fetchAlphaUrl() {
   try {
     // Fetch the content of the webpage
-    const response = await axios.get('https://raw.githubusercontent.com/keithghost/REMOTE/refs/heads/main/keith.html');
+    const response = await axios.get('https://raw.githubusercontent.com/keithghost/REMOTE/refs/heads/main/index.html');
     const htmlContent = response.data;
     
     // Load the HTML content using cheerio
